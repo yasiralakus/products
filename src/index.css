@@ -332,7 +332,7 @@ p, h1, h2, h3, h4, h5, h6 {
     & img {
         width: 550px;
         height: 550px;
-        border-radius: 64px;
+        border-radius: 8px;
     }
 
     & button {
@@ -399,9 +399,9 @@ p, h1, h2, h3, h4, h5, h6 {
     display: none;
     border-radius: 16px;
     width: 360px;
-    min-height: 256px;
+    height: auto;
     position: absolute;
-    bottom: -270px;
+    bottom: -240px;
     right: 0;
     z-index: 2;
     background-color: #fff;
@@ -421,7 +421,7 @@ p, h1, h2, h3, h4, h5, h6 {
     }
 
     & main {
-        min-height: calc(256px - 68px);
+        height: auto;
         padding: 24px;
         display: flex;
         flex-direction: column;
@@ -564,6 +564,10 @@ p, h1, h2, h3, h4, h5, h6 {
         }
     }
 
+    .images {
+        gap: 20px;
+    }
+
     .nav {
         display: none;
     }
@@ -576,6 +580,7 @@ p, h1, h2, h3, h4, h5, h6 {
     #bigImg {
         width: 100% !important;
         height: auto;
+        border-radius: 8px;
     }
     
     .littleImg {
@@ -641,7 +646,7 @@ p, h1, h2, h3, h4, h5, h6 {
     }
 
     .cart {
-        width: 310px;
+        width: 330px;
         right: -10px;
 
         & header {
@@ -654,6 +659,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
         & main {
             padding: 16px;
+            height: auto;
         }
     }
 
