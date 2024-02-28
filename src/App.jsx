@@ -48,7 +48,7 @@ export default function App() {
                     <button onClick={() => {setFocus(false)}} id="closed"><i className="fa-solid fa-xmark"></i></button>
 
                     <div className="sliderBigImg">
-                        <img src={`./img/products/${photoId}.svg`} alt="" />
+                        <img src={`./img/products/${photoId}.png`} alt="" />
 
                         {photoId === 4 ? (
                             <button onClick={() => {setPhotoId(photoId + 1)}} style={{ opacity: photoId === 4 ? 0.3 : 1 }} disabled id="btnRight"><img src="./img/btn-right.png" alt="" /></button>)
@@ -68,10 +68,10 @@ export default function App() {
 
                     <div className="slider-small-images">
 
-                        <img className={photoId === 1 && 'opacity'} onClick={() => {setPhotoId(1)}} src="./img/products/1.svg" alt="" />
-                        <img className={photoId === 2 && 'opacity'} onClick={() => {setPhotoId(2)}} src="./img/products/2.svg" alt="" />
-                        <img className={photoId === 3 && 'opacity'} onClick={() => {setPhotoId(3)}} src="./img/products/3.svg" alt="" />
-                        <img className={photoId === 4 && 'opacity'} onClick={() => {setPhotoId(4)}} src="./img/products/4.svg" alt="" />
+                        <img className={photoId === 1 && 'opacity'} onClick={() => {setPhotoId(1)}} src="./img/products/1.png" alt="" />
+                        <img className={photoId === 2 && 'opacity'} onClick={() => {setPhotoId(2)}} src="./img/products/2.png" alt="" />
+                        <img className={photoId === 3 && 'opacity'} onClick={() => {setPhotoId(3)}} src="./img/products/3.png" alt="" />
+                        <img className={photoId === 4 && 'opacity'} onClick={() => {setPhotoId(4)}} src="./img/products/4.png" alt="" />
 
                     </div>
 
@@ -108,7 +108,7 @@ export default function App() {
                             <>
                                 <div className="item">
 
-                                    <img src="./img/products/1.svg" alt="" />
+                                    <img src="./img/products/1.png" alt="" />
 
                                     <div className="item-details">
 
@@ -138,14 +138,14 @@ export default function App() {
             <main className="main">
 
                 <div className="images">
-                    <img onClick={() => {setFocus(true)}} id="bigImg" src={`./img/products/${photoId}.svg`} alt="" />
+                    <img onClick={() => {setFocus(true)}} id="bigImg" src={`./img/products/${photoId}.png`} alt="" />
 
                     <div className="littleImg">
 
-                        <img className={photoId === 1 && 'opacity'} onClick={() => {setPhotoId(1)}} src="./img/products/1.svg" alt="" />
-                        <img className={photoId === 2 && 'opacity'} onClick={() => {setPhotoId(2)}} src="./img/products/2.svg" alt="" />
-                        <img className={photoId === 3 && 'opacity'} onClick={() => {setPhotoId(3)}} src="./img/products/3.svg" alt="" />
-                        <img className={photoId === 4 && 'opacity'} onClick={() => {setPhotoId(4)}} src="./img/products/4.svg" alt="" />
+                        <img className={photoId === 1 && 'opacity'} onClick={() => {setPhotoId(1)}} src="./img/products/1.png" alt="" />
+                        <img className={photoId === 2 && 'opacity'} onClick={() => {setPhotoId(2)}} src="./img/products/2.png" alt="" />
+                        <img className={photoId === 3 && 'opacity'} onClick={() => {setPhotoId(3)}} src="./img/products/3.png" alt="" />
+                        <img className={photoId === 4 && 'opacity'} onClick={() => {setPhotoId(4)}} src="./img/products/4.png" alt="" />
 
                     </div>
                 
